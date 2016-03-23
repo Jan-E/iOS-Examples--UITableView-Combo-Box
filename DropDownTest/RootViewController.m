@@ -172,7 +172,7 @@
                         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
                     }
                     
-                    NSString *label = [NSString stringWithFormat:@"Option %i", [indexPath row]];
+                    NSString *label = [NSString stringWithFormat:@"Option %li", (long)[indexPath row]];
                     
                     [[cell textLabel] setText:label];
                     
@@ -224,7 +224,7 @@
                         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
                     }
                     
-                    NSString *label = [NSString stringWithFormat:@"Option %i", [indexPath row]];
+                    NSString *label = [NSString stringWithFormat:@"Option %li", (long)[indexPath row]];
                     
                     [[cell textLabel] setText:label];
                     
